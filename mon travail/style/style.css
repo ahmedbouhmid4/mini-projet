@@ -199,5 +199,103 @@ textarea:focus {
   font-weight: bold;
 }
 
+.connexion {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
+.connexion .bouton {
+  align-self: flex-start;
+}
 
+.connexion-lien {
+  margin: 20px 0 0;
+  padding-top: 12px;
+  border-top: 1px solid var(--border-color);
+}
+
+.recherche {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  background: var(--bg-search);
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  align-items: end;
+}
+
+.recherche .bouton {
+  justify-self: start;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid var(--border-table);
+  padding: 8px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.catalogue th {
+  background: var(--dark-nav);
+  color: var(--text-light);
+}
+
+.catalogue th:first-child,
+.catalogue td:first-child {
+  width: 20%;
+}
+
+.catalogue td:first-child {
+  font-weight: bold;
+}
+
+.catalogue img {
+  display: block;
+  width: 100%;
+  max-width: 120px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.catalogue ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.prix {
+  color: var(--text-price);
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.formulaire {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.radios {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.radios label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: normal;
+}
+
+.radios input {
+  width: auto;
+}
