@@ -299,4 +299,108 @@ textarea {
   min-height: 80px;
   resize: vertical;
 }
+.infos-generales p {
+  margin: 4px 0;
+}
+
+.glossaire dt {
+  color: var(--primary-color);
+  font-weight: bold;
+  border-left: 3px solid var(--primary-color);
+  padding-left: 8px;
+  margin-top: 12px;
+}
+
+.glossaire dd {
+  margin: 4px 0 0;
+  padding-left: 11px;
+  color: var(--text-muted);
+}
+
+.horaires {
+  text-align: center;
+  font-size: 12px;
+}
+
+.horaires th,
+.horaires td {
+  text-align: center;
+  padding: 8px 4px;
+}
+
+.horaires .titre {
+  background: var(--dark-header);
+  color: var(--text-light);
+  font-size: 13px;
+}
+
+.horaires .saison {
+  background: var(--dark-sub-header);
+  color: var(--text-light);
+}
+
+.promos {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.promo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 15px;
+}
+
+.promo-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+  background: var(--bg-placeholder);
+  border: 1px solid var(--border-placeholder);
+  border-radius: 4px;
+  color: var(--text-placeholder);
+}
+
+.promo h3 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.promo p {
+  margin: 0;
+  color: var(--text-muted);
+}
+
+.promo-prix {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.ancien-prix {
+  color: var(--text-placeholder);
+  text-decoration: line-through;
+}
+
+.promo .bouton {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+.pied {
+  background: var(--dark-header);
+  color: var(--text-light);
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+.pied p {
+  margin: 0;
+}
 
