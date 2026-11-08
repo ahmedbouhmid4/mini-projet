@@ -406,3 +406,46 @@ textarea {
   padding: 25px 15px;
 }
 
+.pied p {
+  margin: 0;
+}
+
+@media (min-width: 700px) {
+  .entete {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 18px;
+  }
+
+  .recherche {
+    grid-template-columns: 1fr 1fr auto;
+  }
+
+  .formulaire {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .champ-large {
+    grid-column: 1 / -1;
+  }
+
+  .promos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .horaires {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 900px) {
+  .accueil {
+    grid-template-columns: 2fr 1fr;
+    align-items: start;
+  }
+
+  .promos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
